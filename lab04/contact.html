@@ -23,20 +23,23 @@
     <form action="https://formspree.io/f/meojbqgw" method="post">
 
       <label for="fname">Your name:</label>
-      <input type="text" id="fname" name="fname">
+      <input type="text" id="fname" name="fname"><br>
 
       <p> How do I know you?</p>
-      <input type="checkbox" id="friend" name="friend" value="Friend">
-      <label for="vehicle1"> I am a Friend</label>
-      <input type="checkbox" id="family" name="family" value="Family">
-      <label for="vehicle2"> I am Family</label>
-      <input type="checkbox" id="employer" name="employer" value="Employer">
-      <label for="vehicle3"> I am a potential Employer</label>
-      <input type="checkbox" id="classmate" name="classmate" value="Classmate">
-      <label for="vehicle3"> I am a Classmate</label>
+      <input type="radio" id="relate1" name="friend" value="friend">
+      <label for="age1">friend</label><br>
+      <input type="radio" id="relate2" name="family" value="family">
+      <label for="age2">family</label><br>  
+      <input type="radio" id="relate3" name="classmate" value="classmate">
+      <label for="age3">classmate</label><br>
+      <input type="radio" id="relate4" name="employer" value="employer">
+      <label for="age3">employer</label> <br>
 
-    <p> What else would you like to know about me?</p>
-    <textarea id="comments name="comments rows="3" cols="30"> </textarea>
+
+
+    <label for="comments">What else do you want to know about me? </label>
+    <textarea id="comments" name="comments" rows="3" cols="50">
+    </textarea><br>
 
     <input type="submit" value="send form">
 </form>
