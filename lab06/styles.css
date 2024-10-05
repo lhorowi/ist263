@@ -1,0 +1,12 @@
+body {
+    font-family: 'Times New Roman';
+  }
+  
+  h1,h2,h3 {
+    color: cornflowerblue;
+  }
+ 
+  h1{font-size: 2em;}
+  h2,h3{font-size: 1em;}
+  .special {color: purple}
+  .evenrow{background-color: WhiteSmoke;}
