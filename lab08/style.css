@@ -1,0 +1,17 @@
+body {background-color: #f7f3e3 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #7ba6c8;
+}
+h1,h2,h3{color: #87d5de;}
+
+nav {background-color: #fde6ba;
+    padding: 10px;
+    margin-bottom: 30px;
+    color: #dc9b62;
+}
+nav a{color: #dc9b62;}
+nav a:visited{color: #b5631c;}
+nav a:hover{background-color: #f6d088;}
+
+header{float: left}
+
