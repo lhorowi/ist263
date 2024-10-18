@@ -13,11 +13,16 @@ nav a{color: #dc9b62;}
 nav a:visited{color: #b5631c;}
 nav a:hover{background-color: #f6d088;}
 
+.clear{
+    clear: both;
+    margin-top: 30px;
+}
+
 header img {
     float: left;
     margin: 15px;
-    width: 150px; /* Adjust width of the image */
-    height: auto; /* Maintain image aspect ratio */
+    width: 150px;
+    height: auto; 
 }
 footer {
     margin-top: 50px;
@@ -28,16 +33,10 @@ footer .quote {
     float: right;
     margin-right: 20px;
     font-style: italic;
-    color: #7ba6c8;
 }
 
 footer .copy {
     float: left;
     margin-left: 20px;
-    color: #7ba6c8;
 }
 
-.clear{
-    clear: both;
-    margin-top: 30px;
-}
