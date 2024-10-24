@@ -1,0 +1,109 @@
+body {
+    background-color: #f7f3e3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #7ba6c8;
+}
+
+h1,
+h2,
+h3 {
+    color: #87d5de;
+}
+
+nav {
+    background-color: #fde6ba;
+    padding: 10px;
+    margin-bottom: 30px;
+    color: #dc9b62;
+}
+
+nav a {
+    color: #dc9b62;
+}
+
+nav a:visited {
+    color: #b5631c;
+}
+
+nav a:hover {
+    background-color: #f6d088;
+}
+
+.clear {
+    clear: both;
+    margin-top: 30px;
+}
+
+header img {
+    float: left;
+    margin: 15px;
+    width: 150px;
+    height: auto;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer .quote {
+    float: right;
+    margin-right: 20px;
+    font-style: italic;
+}
+
+footer .copy {
+    float: left;
+    margin-left: 20px;
+}
+
+
+.evenrow {
+    background-color: rgb(255, 206, 154);
+}
+
+table,
+th,
+td {
+    border: 1px solid black
+}
+
+.center {
+    text-align: center;
+}
+
+.firstrow {
+    display: flex;
+    margin: 30px;
+    padding: 20px;
+}
+
+.skillstable table {
+    margin: 0 auto;
+}
+
+.skillsimage {
+    text-align: center;
+}
+.sec1 {
+    display: flex;
+    margin: 30px;
+    padding: 20px;
+    background-color: #f6d088;
+    border-radius: 1em;
+
+  }
+
+  .add,
+  .link {
+    margin: 20px;
+  }
+
+
+  .sec2 {
+    display: flex;
+    margin: 30px;
+    padding: 10px;
+    background-color: #f6d088;
+    border-radius: 1em
+  }

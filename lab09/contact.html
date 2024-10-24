@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    
+    .sec1{display:flex;
+      margin: 30px;
+      padding:20px;
+      background-color: #f6d088;
+      border-radius: 1em;
+
+    }
+    .add, .link {margin:20px;}
+
+
+    .sec2{display:flex;
+      margin: 30px;
+      padding: 10px;
+      background-color: #f6d088;
+      border-radius: 1em
+    }
+
+    
+
+    </style>     
+  </head>
+
+  <body>
+    
+    <nav>
+        <p> <a href="index.html">Home</a> |
+          <a href="contact.html">Contact</a> |
+          <a href="skills.html">Skills</a>
+          </p>
+        </nav>
+    <h1> Contact</h1>
+
+    <div class="sec1">
+      <div class="add">
+        <p>Address</p>
+        <p>601 Euclid Ave</p>
+        <p>Syracuse NY 13210</p>
+      </div>
+      <div class="link">
+        
+        <p><a href="mailto:lhorowit@syr.edu">Email</a></p>
+      <!-- <p> <img src="../images/LinkedInLogo.png" alt="LinkedInLogo"> 
+        </p>
+        <p><a href="http://www.linkedin.com/in/lindsey-horowitz" target="_blank">LinkedIn</a></p>-->
+        <p><a href="http://www.linkedin.com/in/lindsey-horowitz" target="_blank"><img src="../images/logo-sized.png" alt="LinkedInLogo"></a></p>
+    
+      </div>
+    </div>
+    <div class="sec2">
+      <div class="surv">
+          <form action="https://formspree.io/f/meojbqgw" method="post">
+
+            <label for="fname">Your name:</label>
+            <input type="text" id="fname" name="fname"><br>
+
+            <p> How do I know you?</p>
+            <input type="radio" id="relate1" name="friend" value="friend">
+            <label for="relate1">Friend</label><br>
+            <input type="radio" id="relate2" name="family" value="family">
+            <label for="relate2">Family</label><br>  
+            <input type="radio" id="relate3" name="classmate" value="classmate">
+            <label for="relate3">Classmate</label><br>
+            <input type="radio" id="relate4" name="employer" value="employer">
+            <label for="relate4">Employer</label> <br>
+
+          <label for="comments">What else do you want to know about me? </label>
+          <textarea id="comments" name="comments" rows="3" cols="50">
+          </textarea><br>
+
+          <input type="submit" value="send form">
+          </form>
+       </div>
+       <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.2203499921966!2d-76.12680122408747!3d43.036795092080006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f373a7a64c21%3A0x884e48d88ef19615!2s601%20Euclid%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1726091528910!5m2!1sen!2sus" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+    </div>
+  </body>
