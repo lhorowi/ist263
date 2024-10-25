@@ -1,15 +1,29 @@
+/********************************************************************
+                                                                   
+************************** TO ALL ***********************************
+                                                                   
+*********************************************************************/
 body {
     background-color: #f7f3e3;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #7ba6c8;
 }
 
-h1,
-h2,
-h3 {
-    color: #87d5de;
-}
+h1,h2,h3 {color: #87d5de;}
 
+
+
+
+
+
+
+
+
+/********************************************************************
+                                                                   
+****************************** NAV **********************************
+                                                                   
+*********************************************************************/
 nav {
     background-color: #fde6ba;
     padding: 10px;
@@ -20,7 +34,7 @@ nav {
 nav a {
     color: #dc9b62;
 }
-
+x
 nav a:visited {
     color: #b5631c;
 }
@@ -34,12 +48,27 @@ nav a:hover {
     margin-top: 30px;
 }
 
+
+
+
+
+
+
+
+
+
+/********************************************************************
+                                                                   
+****************************** BIO **********************************
+                                                                   
+*********************************************************************/
 header img {
     float: left;
     margin: 15px;
     width: 150px;
     height: auto;
 }
+
 
 footer {
     margin-top: 50px;
@@ -58,8 +87,22 @@ footer .copy {
 }
 
 
+
+
+
+
+
+
+
+
+/********************************************************************
+                                                                     
+***************************** Skills ********************************
+                                                                   
+*********************************************************************/
+
 .evenrow {
-    background-color: rgb(255, 206, 154);
+    background-color: rgb(240, 189, 134);
 }
 
 table,
@@ -72,24 +115,38 @@ td {
     text-align: center;
 }
 
+
 .firstrow {
     display: flex;
-    margin: 30px;
-    padding: 20px;
+    justify-content: ;
+    align-items: center;
+    width: 100%;
+    background-color: #f8dcaa;
+}
+.firstrow .skillsimage {
+    margin-right: auto;
 }
 
-.skillstable table {
-    margin: 0 auto;
-}
 
-.skillsimage {
-    text-align: center;
-}
+
+
+
+
+
+
+
+
+/********************************************************************
+                                                                    
+****************************** Contact ******************************
+                                                                   
+*********************************************************************/
+
 .sec1 {
     display: flex;
     margin: 30px;
     padding: 20px;
-    background-color: #f6d088;
+    background-color: #f8dcaa;
     border-radius: 1em;
 
   }
@@ -104,6 +161,8 @@ td {
     display: flex;
     margin: 30px;
     padding: 10px;
-    background-color: #f6d088;
+    background-color: #f8dcaa;
     border-radius: 1em
   }
+
+
