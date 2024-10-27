@@ -118,7 +118,7 @@ td {
 
 .firstrow {
     display: flex;
-    justify-content: ;
+    justify-content:center;
     align-items: center;
     width: 100%;
     background-color: #f8dcaa;
