@@ -1,0 +1,68 @@
+/********************************************************************
+                                                                   
+************************** TO ALL ***********************************
+                                                                   
+*********************************************************************/
+body {
+    background-color: #f7f3e3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #252b2f;
+}
+
+h1,
+h2,
+h3 {
+    color: #082c2f;
+}
+table, th, td {border: 1px solid black}
+
+
+.clear {
+    clear: both;
+    margin-top: 30px;
+}
+
+/********************************************************************
+                                                                   
+*************************** TOOLS ***********************************
+                                                                   
+*********************************************************************/
+.hook{
+    flex-wrap: wrap;
+        display: flex;
+        margin: 1em;
+        padding: 10px;
+        background-color: #fdb63d;
+        border-radius: 1em;
+}
+
+.hmat, .hsize{
+    flex-wrap: wrap;
+        display: flex;
+        margin: 1em;
+        padding: 10px;
+        background-color: #f8dcaa;
+        border-radius: 1em;    
+}
+.fiber{
+    flex-wrap: wrap;
+        display: flex;
+        margin: 1em;
+        padding: 10px;
+        background-color: #fdb63d;
+        border-radius: 1em;
+}
+.acrylic, .cotton, .wool {
+    font-size: 1.5em;
+    flex-wrap: wrap;
+        display: flex;
+        margin: 1em;
+        padding: 10px;
+        background-color: #f8dcaa;
+        border-radius: 1em;    
+}
+.acrylic table {
+    color: green; 
+    background-color: #a3cdc4;
+
+}
