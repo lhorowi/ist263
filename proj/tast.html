@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Rows</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FFD1DC; /* Soft Peach */
+            color: #333333; /* Dark text for contrast */
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Row Styling (Each row is a flexbox) */
+        .row {
+            display: flex;
+            justify-content: center; /* Center items horizontally */
+            gap: 20px; /* Space between items */
+            margin-bottom: 20px;
+        }
+
+        /* Individual Item Styling */
+        .item {
+            display: flex;
+            flex-direction: column; /* Stack title above image */
+            align-items: center;
+            max-width: 200px; /* Optional: Limit item width */
+        }
+
+        /* Title Styling */
+        .title {
+            font-size: 18px;
+            color: #1A1A1A; /* Dark text */
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        /* Image Styling */
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 3px solid #FFF5B7; /* Butter Yellow border */
+            border-radius: 5px; /* Optional: Slight rounding */
+        }
+    </style>
+</head>
+<body>
+    <!-- First Row (4 Items) -->
+    <div class="row">
+        <div class="item">
+            <h2 class="title">Title 1</h2>
+            <img src="image1.jpg" alt="Description of image 1">
+        </div>
+        <div class="item">
+            <h2 class="title">Title 2</h2>
+            <img src="image2.jpg" alt="Description of image 2">
+        </div>
+        <div class="item">
+            <h2 class="title">Title 3</h2>
+            <img src="image3.jpg" alt="Description of image 3">
+        </div>
+        <div class="item">
+            <h2 class="title">Title 4</h2>
+            <img src="image4.jpg" alt="Description of image 4">
+        </div>
+    </div>
+    <!-- Second Row (3 Items) -->
+    <div class="row">
+        <div class="item">
+            <h2 class="title">Title 5</h2>
+            <img src="image5.jpg" alt="Description of image 5">
+        </div>
+        <div class="item">
+            <h2 class="title">Title 6</h2>
+            <img src="image6.jpg" alt="Description of image 6">
+        </div>
+        <div class="item">
+            <h2 class="title">Title 7</h2>
+            <img src="image7.jpg" alt="Description of image 7">
+        </div>
+    </div>
+</body>
+</html>
