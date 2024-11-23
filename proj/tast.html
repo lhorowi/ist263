@@ -1,86 +1,195 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox Rows</title>
+    <meta charset="utf-8">
+    <title>Lingo</title>
     <style>
-        /* General Styling */
+        /* General styles */
         body {
             font-family: Arial, sans-serif;
-            background-color: #FFD1DC; /* Soft Peach */
-            color: #333333; /* Dark text for contrast */
+            line-height: 1.6;
             margin: 0;
-            padding: 20px;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
         }
 
-        /* Row Styling (Each row is a flexbox) */
-        .row {
-            display: flex;
-            justify-content: center; /* Center items horizontally */
-            gap: 20px; /* Space between items */
-            margin-bottom: 20px;
-        }
-
-        /* Individual Item Styling */
-        .item {
-            display: flex;
-            flex-direction: column; /* Stack title above image */
-            align-items: center;
-            max-width: 200px; /* Optional: Limit item width */
-        }
-
-        /* Title Styling */
-        .title {
-            font-size: 18px;
-            color: #1A1A1A; /* Dark text */
-            margin-bottom: 10px;
+        /* Navigation bar */
+        nav {
+            background-color: #343a40;
+            padding: 1em 0;
             text-align: center;
         }
 
-        /* Image Styling */
-        img {
-            max-width: 100%;
-            height: auto;
-            border: 3px solid #FFF5B7; /* Butter Yellow border */
-            border-radius: 5px; /* Optional: Slight rounding */
+        nav p {
+            margin: 0;
+            color: #fff;
+        }
+
+        nav a {
+            color: #ffc107;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Page heading */
+        h1 {
+            text-align: center;
+            color: #007bff;
+        }
+
+        p {
+            text-align: center;
+            margin: 10px 20px;
+        }
+
+        /* Table styling */
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #fff;
+        }
+
+        caption {
+            caption-side: top;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f1f1f1;
+        }
+
+        td a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        td a:hover {
+            text-decoration: underline;
+        }
+
+        /* Table row hover effect */
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #e9ecef;
+        }
+
+        /* Responsive design */
+        @media (max-width: 600px) {
+            table {
+                font-size: 0.9em;
+            }
+
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
         }
     </style>
 </head>
 <body>
-    <!-- First Row (4 Items) -->
-    <div class="row">
-        <div class="item">
-            <h2 class="title">Title 1</h2>
-            <img src="image1.jpg" alt="Description of image 1">
-        </div>
-        <div class="item">
-            <h2 class="title">Title 2</h2>
-            <img src="image2.jpg" alt="Description of image 2">
-        </div>
-        <div class="item">
-            <h2 class="title">Title 3</h2>
-            <img src="image3.jpg" alt="Description of image 3">
-        </div>
-        <div class="item">
-            <h2 class="title">Title 4</h2>
-            <img src="image4.jpg" alt="Description of image 4">
-        </div>
-    </div>
-    <!-- Second Row (3 Items) -->
-    <div class="row">
-        <div class="item">
-            <h2 class="title">Title 5</h2>
-            <img src="image5.jpg" alt="Description of image 5">
-        </div>
-        <div class="item">
-            <h2 class="title">Title 6</h2>
-            <img src="image6.jpg" alt="Description of image 6">
-        </div>
-        <div class="item">
-            <h2 class="title">Title 7</h2>
-            <img src="image7.jpg" alt="Description of image 7">
-        </div>
-    </div>
+
+    <nav>
+        <p>
+            <a href="lingo.html">lingo</a>
+            <span>|</span>
+            <a href="stitches.html">stitches</a>
+            <span>|</span>
+            <a href="tools.html">tools</a>
+        </p>
+    </nav>
+
+
+    <h1>Getting to Know The “Lingo"</h1>
+    <p>Crochet patterns use abbreviations and symbols to tell you what steps to take. It might seem overwhelming at
+        first, but don’t worry! We’ve got you covered.</p>
+    <table>
+        <caption>Here’s a list of some of the most common crochet terms and what they mean:</caption>
+        <th>shorthand</th>
+        <th>name</th>
+        <th>what it does</th>
+        <th> want to learn?</th>
+        <tr>
+            <td>ch</td>
+            <td>Chain Stitch</td>
+            <td>The foundation of most crochet projects</td>
+            <td><a href="https://youtu.be/pdGxmbZBfGM?si=-bqEiWHNIPa43C4g" target="_blank">Watch here</a></td>
+        </tr>
+        <tr>
+            <td>mr</td>
+            <td>Magic Circle or Magic Ring</td>
+            <td>The foundation for starting a crochet project in a circle or “in the round”</td>
+            <td><a href="https://youtu.be/fNyfAtJ3edE?si=9-MQpAmgE7Iee3AK" target="_blank">Watch here</a></td>
+        </tr>
+        <tr>
+            <td>Sc</td>
+            <td>Single Crochet</td>
+            <td>A simple stitch that’s used in most projects</td>
+            <td><a href="https://youtu.be/wgVOkQcf5qw?si=NY6bVMlxLKa2hZyr&t=45" target="_blank">Watch here</a></td>
+        </tr>
+        <tr>
+            <td>hdc</td>
+            <td>Half Double Crochet</td>
+            <td>A versatile stitch that’s great for creating soft fabrics. </td>
+            <td><a href="https://youtu.be/f9C1C21MNiM?si=8Lsv_TMrh7SVhHJ0" target="_blank">Watch here</a></td>
+        </tr>
+        <tr>
+            <td>dc</td>
+            <td>Double Crochet</td>
+            <td>A taller stitch that adds texture and drape</td>
+            <td><a href="https://youtu.be/a1whu6Gub1M?si=Wga798fkyO59xoMu" target="_blank">Watch here</a></td>
+        </tr>
+        <tr>
+            <td>sl st</td>
+            <td>Slip Stitch</td>
+            <td>A stitch used to join rounds or move across stitches.</td>
+            <td><a href="https://youtu.be/8ir3v31G0sg?si=jWnaiURck_OZ_yKP" target="_blank">Watch here</a></td>
+        </tr>
+        <tr>
+            <td>inc</td>
+            <td>Increase</td>
+            <td>This refers to inserting multiple stitches into the same pre-existing stitch</td>
+            <td><a href="https://youtu.be/CvD1qrrRX5c?si=_d-wXYUTW7gaZKQT" target="_blank">Watch here</a></td>
+        </tr>
+        <tr>
+            <td>dec</td>
+            <td>Decrease</td>
+            <td>This refers to joining two stitches together in order to decrease the number of stitches</td>
+            <td><a href="https://youtu.be/lZ8qHGQDT6Y?si=rquoF1nkwJb-h2Nf" target="_blank">Watch here</a></td>
+        </tr>
+        <tr>
+            <td>blo</td>
+            <td> Back Loop Only</td>
+            <td>Inserting stitches into the back loop, used either to create a base for a project or a line.</td>
+            <td><a href="https://youtu.be/pCiq2VB7jH4?si=h-RaUkQZzAYMx_5o" target="_blank">Watch here</a></td>
+        </tr>
+        <tr>
+            <td>tog</td>
+            <td>Together</td>
+            <td>Used following a term and a number- Refers to performing a stitch over a set number of preexisting
+                stitches</td>
+            <td><a href="https://youtu.be/EwlGDxRBOGE?si=pSkLxH_Pkciq3kvI" target="_blank">Watch here</a></td>
+        </tr>
+        <tr>
+            <td>n/a</td>
+            <td> Yarn Over </td>
+            <td>Looping the yarn over your hook before going into a stitch: used to create stitches like the half-double
+                crochet and double crochet. </td>
+            <td>n/a</td>
+        </tr>
+    </table>
 </body>
-</html>
