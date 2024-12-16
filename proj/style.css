@@ -14,7 +14,6 @@ body {
     color: #333;
 }
 
-/* Typography */
 h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
@@ -41,7 +40,6 @@ p {
     margin-bottom: 15px;
 }
 
-/* Navigation */
 nav {
     background-color: #6A5ACD;
     padding: 15px 0;
@@ -68,7 +66,6 @@ nav a:hover {
     color: #DDA0DD;
 }
 
-/* Links */
 a {
     color: #9370DB;
     text-decoration: none;
@@ -80,7 +77,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Tables */
 table {
     width: 90%;
     max-width: 1000px;
@@ -115,7 +111,6 @@ tr:hover {
     background-color: #f0f0f0;
 }
 
-/* Flexbox Layouts */
 .row {
     display: flex;
     justify-content: center;
@@ -146,13 +141,11 @@ tr:hover {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-/* Fiber Table Specific Styles */
 .fiber-table {
     display: none;
     margin-top: 20px;
 }
 
-/* Footer */
 footer {
     background-color: #6A5ACD;
     color: #ffffff;
@@ -161,7 +154,6 @@ footer {
     margin-top: 20px;
 }
 
-/* Responsive Design */
 @media screen and (max-width: 768px) {
     nav {
         padding: 10px;
