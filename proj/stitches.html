@@ -8,175 +8,178 @@
     <style>
         /* General Styling */
         body {
-            font-family: Arial, sans-serif;
-            background-color: #FFD1DC;
-            /* Soft Peach */
+            font-family: 'Arial', sans-serif;
+            background-color: #F3F4F6; /* Light Gray */
             color: #333333;
-            /* Dark text for contrast */
             margin: 0;
-            padding: 20px;
+            padding: 0;
         }
 
-        /* Flexbox Row */
+        h3, h4 {
+            color: #4B0082; /* Indigo */
+            text-align: center;
+        }
+
+        p {
+            color: #4B0082; /* Indigo */
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #9370DB; /* Medium Purple */
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #6A5ACD; /* Slate Blue */
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #FFF;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            background-color: #9370DB; /* Medium Purple */
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        /* Flexbox Layout */
         .row {
             display: flex;
             justify-content: center;
-            /* Center items in the row */
             gap: 20px;
-            /* Space between items */
-            margin-bottom: 20px;
-            background-color: rgb(208, 157, 233);
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #E6E6FA; /* Lavender */
+            border-radius: 10px;
+            flex-wrap: wrap; /* Ensures items wrap on smaller screens */
+            max-width: 1200px;
         }
 
-        /* Individual Item Styling */
         .item {
             display: flex;
             flex-direction: column;
-            /* Stack title above image */
             align-items: center;
             max-width: 200px;
-            /* Optional: Limit item width */
+            margin: 10px;
         }
 
-        /* Title Styling */
         .title {
             font-size: 18px;
-            color: #1A1A1A;
-            /* Dark text */
+            color: #4B0082; /* Indigo */
             margin-bottom: 10px;
             text-align: center;
         }
 
-        /* Image Styling */
         img {
             max-width: 100%;
             height: auto;
-            border: 5px solid #FFF5B7;
-            /* Butter Yellow border */
-            border-radius: 5px;
-            /* Optional: Slight rounding */
+            border: 3px solid #D8BFD8; /* Thistle */
+            border-radius: 10px;
         }
-        @media only screen and (min-width: 801px) {
-    nav {
-        background-color: #fdbae1;
-        padding: 10px;
-        margin-bottom: 30px;
-        color: #ce62dc;
-    }
 
-    nav a {
-        color: #dc62c2;
-    }
+        /* Footer */
+        footer {
+            background-color: #6A5ACD; /* Slate Blue */
+            color: #FFF;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
 
-    nav a:visited {
-        color: #b51c87;
-    }
+        /* Responsive Design */
+        @media only screen and (max-width: 800px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
 
-    nav a:hover {
-        background-color: #f688de;
-    }
-
-    .clear {
-        clear: both;
-        margin-top: 30px;
-    }
-}
-
-@media only screen and (max-width: 801px) {
-    nav a {
-        size: 100%;
-        display: block;
-        background-color: #fdbaf5;
-        color: #dc62c8;
-        padding-left: 10px;
-
-    }
-
-    nav span {
-        display: none;
-    }
-
-
-}
-
+            .row {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
     </style>
 </head>
 
 <body>
+    <!-- Navigation Bar -->
     <nav>
         <p>
-          <a href="lingo.html">lingo</a>
-          <span>|</span>
-          <a href="stitches.html">stitches</a>
-          <span>|</span>
-          <a href="tools.html">tools</a>
+            <a href="lingo.html">lingo</a>
+            <a href="stitches.html">stitches</a>
+            <a href="tools.html">tools</a>
         </p>
-      </nav>
+    </nav>
 
+    <!-- Page Content -->
+    <h3>Exploring Other Types of Crochet</h3>
+    <h4>Once you’ve mastered the basics, try these intermediate stitches. These stitches use a combination of basic stitches to create new and fun patterns:</h4>
 
-    <h3> Exploring other types of Crochet </h3>
-    <h4> Once you’ve mastered the basics, try these intermediate stitches. These stitches use a combination of basic
-        stitches to create new and fun patterns: </h4>
     <div class="row">
         <div class="item">
-            <h2 class="title">Bobble</h2>
-            <p><a href="https://hearthookhome.com/how-to-crochet-bobble-stitch/ " target="_blank"><img
-                        src="image_f/bobble.jpg" alt="Bobble"></a></p>
-
+            <h2 class="title">Bobble Stitch</h2>
+            <a href="https://hearthookhome.com/how-to-crochet-bobble-stitch/" target="_blank">
+                <img src="image_f/bobble.jpg" alt="Bobble">
+            </a>
         </div>
         <div class="item">
             <h2 class="title">Granny Stitch</h2>
-
-            <p><a href="https://www.mamainastitch.com/how-to-crochet-the-granny-stitch/" target="_blank"><img src="image_f/granny.jpg" alt="Granny"></a></p>
-
-
+            <a href="https://www.mamainastitch.com/how-to-crochet-the-granny-stitch/" target="_blank">
+                <img src="image_f/granny.jpg" alt="Granny">
+            </a>
         </div>
         <div class="item">
-            <h2 class="title">Shell</h2>
-
-            <p><a href="https://persialou.com/how-to-crochet-the-shell-stitch/" target="_blank"><img
-                        src="image_f/shell.jpg" alt="Shell"></a></p>
-
+            <h2 class="title">Shell Stitch</h2>
+            <a href="https://persialou.com/how-to-crochet-the-shell-stitch/" target="_blank">
+                <img src="image_f/shell.jpg" alt="Shell">
+            </a>
         </div>
         <div class="item">
-            <h2 class="title">Wave</h2>
-
-            <p><a href="https://bhookedcrochet.com/2018/10/21/how-to-crochet-ripple-stitch/" target="_blank"><img
-                        src="image_f/wave.jpg" alt="wave"></a></p>
-
+            <h2 class="title">Wave Stitch</h2>
+            <a href="https://bhookedcrochet.com/2018/10/21/how-to-crochet-ripple-stitch/" target="_blank">
+                <img src="image_f/wave.jpg" alt="Wave">
+            </a>
         </div>
     </div>
-    <h4>There are other types of crochet like Tunisian Crochet which combines knitting principles with crochet.
-    </h4>
-    <p>
-        Here are some basic Tunisian stitches you can try:
-    </p>
+
+    <h4>There are other types of crochet like Tunisian Crochet, which combines knitting principles with crochet.</h4>
+    <p>Here are some basic Tunisian stitches you can try:</p>
 
     <div class="row">
         <div class="item">
-            <h2 class="title"> Tunisian Simple stitch</h2>
-            <p><a href="https://moralefiber.blog/2019/01/25/tunisian-simple-stitch-tutorial/" target="_blank"><img
-                        src="image_f/tss.jpg" alt="tunisian simple stitch"></a></p>
-
-
-        </div>
-
-        <div class="item">
-            <h2 class="title">Tunisian Knit Stitch</h2>
-
-            <p><a href="https://moralefiber.blog/2019/01/28/tunisian-knit-stitch-tutorial/" target="_blank"><img
-                        src="image_f/tks.jpg" alt="tunisian knit stitch"></a></p>
-
+            <h2 class="title">Tunisian Simple</h2>
+            <a href="https://moralefiber.blog/2019/01/25/tunisian-simple-stitch-tutorial/" target="_blank">
+                <img src="image_f/tss.jpg" alt="Tunisian Simple Stitch">
+            </a>
         </div>
         <div class="item">
-            <h2 class="title">Tunisian Purl Stitch</h2>
-            <p><a href="https://www.petalstopicots.com/tunisian-purl-stitch-in-tunisian-crochet/" target="_blank"><img
-                        src="image_f/tps.jpg" alt="tunisian purl stitch"></a></p>
-
-
+            <h2 class="title">Tunisian Knit</h2>
+            <a href="https://moralefiber.blog/2019/01/28/tunisian-knit-stitch-tutorial/" target="_blank">
+                <img src="image_f/tks.jpg" alt="Tunisian Knit Stitch">
+            </a>
         </div>
-
+        <div class="item">
+            <h2 class="title">Tunisian Purl</h2>
+            <a href="https://www.petalstopicots.com/tunisian-purl-stitch-in-tunisian-crochet/" target="_blank">
+                <img src="image_f/tps.jpg" alt="Tunisian Purl Stitch">
+            </a>
+        </div>
     </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Crochet Guide | All Rights Reserved</p>
+    </footer>
 </body>
 
 </html>
